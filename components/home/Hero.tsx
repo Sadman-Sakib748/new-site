@@ -51,7 +51,9 @@ export default function Hero() {
               <Image
                 src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop"
                 alt="Premium products"
-                className="rounded-2xl w-full h-auto"
+                width={500}
+                height={500}
+                className="rounded-2xl"
               />
             </div>
           </motion.div>

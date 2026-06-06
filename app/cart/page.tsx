@@ -90,7 +90,8 @@ export default function CartPage() {
                     <Image
                       src={item.product?.images?.[0] || '/placeholder.png'}
                       alt={item.product?.name || 'Product'}
-                      fill
+                      width={100}
+                      height={100}
                       className="object-cover rounded-lg"
                     />
                     <div className="aspect-[4/3] overflow-hidden relative">

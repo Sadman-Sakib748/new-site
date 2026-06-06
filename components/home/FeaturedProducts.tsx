@@ -50,7 +50,8 @@ export default function FeaturedProducts() {
                   <Image
                     src={product.images?.[0] || '/placeholder.png'}
                     alt={product.name}
-                    fill
+                    width={500}
+                    height={500}
                     className="object-cover group-hover:scale-110 transition"
                   />
                 </div>

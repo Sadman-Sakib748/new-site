@@ -38,7 +38,6 @@ export default function ProductDetailsPage() {
 
     return (
         <div className="min-h-screen bg-background">
-            <Header />
 
             <div className="max-w-6xl mx-auto p-6 grid md:grid-cols-2 gap-10">
 
@@ -46,8 +45,9 @@ export default function ProductDetailsPage() {
                 <div>
                     <Image
                         src={product.images[0]}
-                        fill
-                        className="w-full rounded-xl"
+                        width={500}
+                        height={500}
+                        className="w-full h-auto rounded-xl"
                         alt={product.name}
                     />
                 </div>
